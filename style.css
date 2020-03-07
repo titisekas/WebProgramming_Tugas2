@@ -1,0 +1,34 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.kota{
+	position: relative;
+	background: url(kota.jpg);
+	height:	100vh;
+	background-size: cover;
+	background-repeat: repeat-x;
+	animation:animate 15s linear infinite;
+
+
+}
+
+.vespa{
+	position: absolute;
+	bottom: 0;
+}
+@keyframes animate{
+	from{
+		background-position: 0 0;
+		} to{
+			background-position: 100% 0;
+
+		}
+	}
+
+
+
+
+
+}
